@@ -55,8 +55,8 @@ namespace ODataDtoRepro
           .MaxTop(128)
           .Count();
         var edmModel = new ODataConventionModelBuilder();
-        edmModel.EntitySet<Contact>("Contacts");
-        edmModel.EntityType<ContactDto>();
+        edmModel.EntitySet<ContactBase>("Contacts");
+        //edmModel.EntityType<ContactDto>();
 
         routeBuilder.MapODataServiceRoute("API Route", Constants.Api, edmModel.GetEdmModel());
 
