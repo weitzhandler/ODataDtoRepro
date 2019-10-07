@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataDtoRepro", "ODataDtoRepro\ODataDtoRepro.csproj", "{75380486-7DA7-4B14-B43A-AFB8166F86EB}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Models", "Models\Models.shproj", "{2233ACF9-B8B0-42DB-92F8-696C3EA70173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{630BA6C3-D653-44BD-A4DF-26A6C8B5332E}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Models\Models.projitems*{2233acf9-b8b0-42db-92f8-696c3ea70173}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75380486-7DA7-4B14-B43A-AFB8166F86EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75380486-7DA7-4B14-B43A-AFB8166F86EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75380486-7DA7-4B14-B43A-AFB8166F86EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75380486-7DA7-4B14-B43A-AFB8166F86EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630BA6C3-D653-44BD-A4DF-26A6C8B5332E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630BA6C3-D653-44BD-A4DF-26A6C8B5332E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630BA6C3-D653-44BD-A4DF-26A6C8B5332E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630BA6C3-D653-44BD-A4DF-26A6C8B5332E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2ACA796C-4012-4F8E-AC26-A35D28C53BC9}
+	EndGlobalSection
+EndGlobal
