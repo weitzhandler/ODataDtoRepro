@@ -42,8 +42,12 @@ namespace Client
 
       var client = new ODataClient(settings);
 
+      //var result = await client
+      //  .For<Contact>()
+      //  .FindEntriesAsync();
+
       var result = await client
-        .For<Contact>()
+        .For<ContactBase>("Contacts")
         .FindEntriesAsync();
 
       /* the JSON result from server is: */
